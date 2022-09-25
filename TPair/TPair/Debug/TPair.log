@@ -1,7 +1,0 @@
-﻿  main.cpp
-C:\Users\User\Desktop\Programs\Learning\Прога\2022\TPair\TPair\main.cpp(6,34): warning C4305: аргумент: усечение из "double" в "T1"
-          with
-          [
-              T1=float
-          ]
-  TPair.vcxproj -> C:\Users\User\Desktop\Programs\Learning\Прога\2022\TPair\Debug\TPair.exe
