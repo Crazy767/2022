@@ -45,7 +45,7 @@ public:
 	void clear() { l.clear(); }
 
 	void print_is_clear() 
-	{ std::cout << std::endl << (l.size() == NULL) ? "List Clear" : "List Not Clear"; }
+	{ std::cout << std::endl << ((l.size() == NULL) ? "List Clear" : "List Not Clear"); }
 
 	void print()
 	{

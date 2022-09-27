@@ -4,7 +4,7 @@
 struct task1
 {
 	std::vector<int> vector;
-
+	
 	task1() { vector.resize(20); }
 
 	void generate()

@@ -1,7 +1,10 @@
-#include "vector.h"
-#include "list.h"
+#include "Task 1\vector.h"
+#include "Task 2\list.h"
+#include "Task 3\Console.h"
+
 int main()
 {
+	std::setlocale(LC_ALL, "");
 	//task1 v;
 	//v.generate();
 	//v.max_min();
@@ -23,20 +26,22 @@ int main()
 	//v.clear();
 	//v.print();
 
-	task2 l;
-	l.add5_back();
-	l.print_begin();
-	l.add2_front();
-	l.del4_element();
-	l.print();
-	l.add_random3();
-	l.print();
-	l.add2_middle();
-	l.print();
-	l.unique();
-	l.print();
-	l.print_is_clear();
-	l.clear();
-	l.print();
-	l.print_is_clear();
+	//task2 l;
+	//l.add5_back();
+	//l.print_begin();
+	//l.add2_front();
+	//l.del4_element();
+	//l.print();
+	//l.add_random3();
+	//l.print();
+	//l.add2_middle();
+	//l.print();
+	//l.unique();
+	//l.print();
+	//l.print_is_clear();
+	//l.clear();
+	//l.print();
+	//l.print_is_clear();
+
+	Console c;
 }
