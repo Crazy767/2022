@@ -35,7 +35,7 @@ struct task1
 
 	void less_10()
 	{
-		for (std::vector<int>::iterator i = vector.begin(); i != vector.end(); i++)
+		for (auto i = vector.begin(); i != vector.end(); i++)
 			if (*i < 10) { *i = 0; }
 	}
 
@@ -79,7 +79,7 @@ struct task1
 		if (vector.size() % 2 == 0) 
 		{
 			std::cout << std::endl << "Reverse: ";
-			for (std::vector<int>::reverse_iterator i = vector.rbegin(); i != vector.rend(); i++)
+			for (auto i = vector.rbegin(); i != vector.rend(); i++)
 			{
 				std::cout << *i << " ";
 			}

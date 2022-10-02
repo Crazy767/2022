@@ -1,7 +1,7 @@
-#include "Task 1\vector.h"
-#include "Task 2\list.h"
-#include "Task 3\Console.h"
-
+#include "Task 1/vector.h"
+#include "Task 2/list.h"
+#include "Task 3/Console.h"
+#include "Task 4/MenuSet.h"
 int main()
 {
 	std::setlocale(LC_ALL, "");
@@ -43,5 +43,6 @@ int main()
 	//l.print();
 	//l.print_is_clear();
 
-	Console c;
+	//Console c;
+	MenuSet s;
 }

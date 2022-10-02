@@ -16,7 +16,7 @@ struct vector
 
 	void input()
 	{
-		for (std::vector<std::pair <std::string, float> >::iterator it = my_vector.begin(); it != my_vector.end(); it++)
+		for (auto it = my_vector.begin(); it != my_vector.end(); it++)
 		{
 			std::cout << "string: ";
 			std::cin >> it->first;
